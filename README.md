@@ -46,7 +46,7 @@ and much more...
    
  - Pandas: For data processing and analysis.
   
- - Matplotlib & Seaborn: For data visualization.
+ - Matplotlib: For data visualization.
   
 **Google Collab Notebook:** For data analysis and visualization workflows.
 
@@ -78,10 +78,10 @@ Outcome: Whether the match ended in a Win, Loss, or Draw.
 Goal Scorers: Names of players who scored, along with the time of each goal.  
 
 
-**What is done**
-- On VScode, I implemented a code that execute the scrapping operation by selenium. I took the data of matches I played before an store them to a csv files in each line [Match_Status,Team1,Team2,Score,Goals(the name of my players contributed to score)] seem for each match.
 
-- Then I open the google collab to use pandas to manipulate/analyze raw data to create graphs and visual analytcs of data by using matplotlib.
-
+- You can check the presentation file on my repository: https://github.com/akyuzegemen/DSA_210_project/blob/main/DSA210_Project_Representation.pptx
+- You can check the implementations by: https://github.com/akyuzegemen/DSA_210_project/blob/main/plottings_dsa210Project.ipynb    or  https://colab.research.google.com/drive/1gSVZyrO9UqENvcGp8pBTqRfyq0-urHGw?usp=sharing
+  
+ 
 
 
