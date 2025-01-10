@@ -30,7 +30,6 @@ Breakdown of wins and losses to identify trends and anomalies.
 **2. Time Tracking and Analysis:**
 
 Estimation of total time spent on the game based on match counts and durations.
-Insights into gaming frequency and patterns (e.g., specific times of the year or week when gaming is more frequent).
 
 **3. Data Visualization:**
 
@@ -43,11 +42,13 @@ and much more...
 
 **Python:**
 
+ - Selenium: For web scrapping
+   
  - Pandas: For data processing and analysis.
   
  - Matplotlib & Seaborn: For data visualization.
   
-**Jupyter Notebook:** For data analysis and visualization workflows.
+**Google Collab Notebook:** For data analysis and visualization workflows.
 
 **Github:** For version control and project sharing.
 
@@ -66,24 +67,21 @@ Total Wins and Losses: A breakdown of match results.
 Win Percentage: The success rate, calculated as (Wins / Matches Played) * 100.  
 
 **Match-Level Data:**  
-Date and Time: The exact time each match occurred.  
-
 Teams: Names of the user’s team and the opponent.   
 
 Final Score: The scoreline for each match, including goals scored by both teams.  
 
 Outcome: Whether the match ended in a Win, Loss, or Draw.  
 
-Man of the Match: The best-performing player for each game.  
-
 
 **Player Contributions:**  
 Goal Scorers: Names of players who scored, along with the time of each goal.  
 
-Assists: Names of players who assisted the goals.  
 
-Other Stats: Information such as clean sheets, defensive contributions, and notable saves.  
+**What is done**
+- On VScode, I implemented a code that execute the scrapping operation by selenium. I took the data of matches I played before an store them to a csv files in each line [Match_Status,Team1,Team2,Score,Goals(the name of my players contributed to score)] seem for each match.
 
-**Seasonal Data:**  
-Monthly Match Distribution: A calendar view of matches played, showing which dates were active and the frequency of matches.
+- Then I open the google collab to use pandas to manipulate/analyze raw data to create graphs and visual analytcs of data by using matplotlib.
+
+
 
